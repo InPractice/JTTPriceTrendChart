@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60C542A196D1B0D007387A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C5429196D1B0D007387A8 /* Foundation.framework */; };
+		C60C542C196D1B0D007387A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C542B196D1B0D007387A8 /* CoreGraphics.framework */; };
+		C60C542E196D1B0D007387A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C542D196D1B0D007387A8 /* UIKit.framework */; };
+		C60C5434196D1B0D007387A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60C5432196D1B0D007387A8 /* InfoPlist.strings */; };
+		C60C5436196D1B0D007387A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C5435196D1B0D007387A8 /* main.m */; };
+		C60C543A196D1B0D007387A8 /* JTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C5439196D1B0D007387A8 /* JTTAppDelegate.m */; };
+		C60C543C196D1B0D007387A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60C543B196D1B0D007387A8 /* Images.xcassets */; };
+		C60C5443196D1B0D007387A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C5442196D1B0D007387A8 /* XCTest.framework */; };
+		C60C5444196D1B0D007387A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C5429196D1B0D007387A8 /* Foundation.framework */; };
+		C60C5445196D1B0D007387A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C542D196D1B0D007387A8 /* UIKit.framework */; };
+		C60C544D196D1B0D007387A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60C544B196D1B0D007387A8 /* InfoPlist.strings */; };
+		C60C544F196D1B0D007387A8 /* PriceTrendChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C544E196D1B0D007387A8 /* PriceTrendChartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60C5446196D1B0D007387A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60C541E196D1B0D007387A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60C5425196D1B0D007387A8;
+			remoteInfo = PriceTrendChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60C5426196D1B0D007387A8 /* PriceTrendChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceTrendChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60C5429196D1B0D007387A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C60C542B196D1B0D007387A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C60C542D196D1B0D007387A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C60C5431196D1B0D007387A8 /* PriceTrendChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceTrendChart-Info.plist"; sourceTree = "<group>"; };
+		C60C5433196D1B0D007387A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60C5435196D1B0D007387A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C60C5437196D1B0D007387A8 /* PriceTrendChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PriceTrendChart-Prefix.pch"; sourceTree = "<group>"; };
+		C60C5438196D1B0D007387A8 /* JTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTTAppDelegate.h; sourceTree = "<group>"; };
+		C60C5439196D1B0D007387A8 /* JTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTTAppDelegate.m; sourceTree = "<group>"; };
+		C60C543B196D1B0D007387A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C60C5441196D1B0D007387A8 /* PriceTrendChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceTrendChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60C5442196D1B0D007387A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C60C544A196D1B0D007387A8 /* PriceTrendChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceTrendChartTests-Info.plist"; sourceTree = "<group>"; };
+		C60C544C196D1B0D007387A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60C544E196D1B0D007387A8 /* PriceTrendChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceTrendChartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60C5423196D1B0D007387A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C542C196D1B0D007387A8 /* CoreGraphics.framework in Frameworks */,
+				C60C542E196D1B0D007387A8 /* UIKit.framework in Frameworks */,
+				C60C542A196D1B0D007387A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60C543E196D1B0D007387A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C5443196D1B0D007387A8 /* XCTest.framework in Frameworks */,
+				C60C5445196D1B0D007387A8 /* UIKit.framework in Frameworks */,
+				C60C5444196D1B0D007387A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60C541D196D1B0D007387A8 = {
+			isa = PBXGroup;
+			children = (
+				C60C542F196D1B0D007387A8 /* PriceTrendChart */,
+				C60C5448196D1B0D007387A8 /* PriceTrendChartTests */,
+				C60C5428196D1B0D007387A8 /* Frameworks */,
+				C60C5427196D1B0D007387A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60C5427196D1B0D007387A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60C5426196D1B0D007387A8 /* PriceTrendChart.app */,
+				C60C5441196D1B0D007387A8 /* PriceTrendChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60C5428196D1B0D007387A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60C5429196D1B0D007387A8 /* Foundation.framework */,
+				C60C542B196D1B0D007387A8 /* CoreGraphics.framework */,
+				C60C542D196D1B0D007387A8 /* UIKit.framework */,
+				C60C5442196D1B0D007387A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60C542F196D1B0D007387A8 /* PriceTrendChart */ = {
+			isa = PBXGroup;
+			children = (
+				C60C5438196D1B0D007387A8 /* JTTAppDelegate.h */,
+				C60C5439196D1B0D007387A8 /* JTTAppDelegate.m */,
+				C60C543B196D1B0D007387A8 /* Images.xcassets */,
+				C60C5430196D1B0D007387A8 /* Supporting Files */,
+			);
+			path = PriceTrendChart;
+			sourceTree = "<group>";
+		};
+		C60C5430196D1B0D007387A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60C5431196D1B0D007387A8 /* PriceTrendChart-Info.plist */,
+				C60C5432196D1B0D007387A8 /* InfoPlist.strings */,
+				C60C5435196D1B0D007387A8 /* main.m */,
+				C60C5437196D1B0D007387A8 /* PriceTrendChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C60C5448196D1B0D007387A8 /* PriceTrendChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60C544E196D1B0D007387A8 /* PriceTrendChartTests.m */,
+				C60C5449196D1B0D007387A8 /* Supporting Files */,
+			);
+			path = PriceTrendChartTests;
+			sourceTree = "<group>";
+		};
+		C60C5449196D1B0D007387A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60C544A196D1B0D007387A8 /* PriceTrendChartTests-Info.plist */,
+				C60C544B196D1B0D007387A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60C5425196D1B0D007387A8 /* PriceTrendChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60C5452196D1B0D007387A8 /* Build configuration list for PBXNativeTarget "PriceTrendChart" */;
+			buildPhases = (
+				C60C5422196D1B0D007387A8 /* Sources */,
+				C60C5423196D1B0D007387A8 /* Frameworks */,
+				C60C5424196D1B0D007387A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceTrendChart;
+			productName = PriceTrendChart;
+			productReference = C60C5426196D1B0D007387A8 /* PriceTrendChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60C5440196D1B0D007387A8 /* PriceTrendChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60C5455196D1B0D007387A8 /* Build configuration list for PBXNativeTarget "PriceTrendChartTests" */;
+			buildPhases = (
+				C60C543D196D1B0D007387A8 /* Sources */,
+				C60C543E196D1B0D007387A8 /* Frameworks */,
+				C60C543F196D1B0D007387A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60C5447196D1B0D007387A8 /* PBXTargetDependency */,
+			);
+			name = PriceTrendChartTests;
+			productName = PriceTrendChartTests;
+			productReference = C60C5441196D1B0D007387A8 /* PriceTrendChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60C541E196D1B0D007387A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JTT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C60C5440196D1B0D007387A8 = {
+						TestTargetID = C60C5425196D1B0D007387A8;
+					};
+				};
+			};
+			buildConfigurationList = C60C5421196D1B0D007387A8 /* Build configuration list for PBXProject "PriceTrendChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C60C541D196D1B0D007387A8;
+			productRefGroup = C60C5427196D1B0D007387A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60C5425196D1B0D007387A8 /* PriceTrendChart */,
+				C60C5440196D1B0D007387A8 /* PriceTrendChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60C5424196D1B0D007387A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C5434196D1B0D007387A8 /* InfoPlist.strings in Resources */,
+				C60C543C196D1B0D007387A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60C543F196D1B0D007387A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C544D196D1B0D007387A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60C5422196D1B0D007387A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C5436196D1B0D007387A8 /* main.m in Sources */,
+				C60C543A196D1B0D007387A8 /* JTTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60C543D196D1B0D007387A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60C544F196D1B0D007387A8 /* PriceTrendChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60C5447196D1B0D007387A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60C5425196D1B0D007387A8 /* PriceTrendChart */;
+			targetProxy = C60C5446196D1B0D007387A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C60C5432196D1B0D007387A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60C5433196D1B0D007387A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C60C544B196D1B0D007387A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60C544C196D1B0D007387A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60C5450196D1B0D007387A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C60C5451196D1B0D007387A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60C5453196D1B0D007387A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceTrendChart/PriceTrendChart-Prefix.pch";
+				INFOPLIST_FILE = "PriceTrendChart/PriceTrendChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C60C5454196D1B0D007387A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceTrendChart/PriceTrendChart-Prefix.pch";
+				INFOPLIST_FILE = "PriceTrendChart/PriceTrendChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C60C5456196D1B0D007387A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PriceTrendChart.app/PriceTrendChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceTrendChart/PriceTrendChart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PriceTrendChartTests/PriceTrendChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C60C5457196D1B0D007387A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PriceTrendChart.app/PriceTrendChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PriceTrendChart/PriceTrendChart-Prefix.pch";
+				INFOPLIST_FILE = "PriceTrendChartTests/PriceTrendChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60C5421196D1B0D007387A8 /* Build configuration list for PBXProject "PriceTrendChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60C5450196D1B0D007387A8 /* Debug */,
+				C60C5451196D1B0D007387A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60C5452196D1B0D007387A8 /* Build configuration list for PBXNativeTarget "PriceTrendChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60C5453196D1B0D007387A8 /* Debug */,
+				C60C5454196D1B0D007387A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60C5455196D1B0D007387A8 /* Build configuration list for PBXNativeTarget "PriceTrendChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60C5456196D1B0D007387A8 /* Debug */,
+				C60C5457196D1B0D007387A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60C541E196D1B0D007387A8 /* Project object */;
+}
