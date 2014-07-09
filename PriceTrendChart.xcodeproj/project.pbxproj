@@ -19,6 +19,9 @@
 		C60C5445196D1B0D007387A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C542D196D1B0D007387A8 /* UIKit.framework */; };
 		C60C544D196D1B0D007387A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60C544B196D1B0D007387A8 /* InfoPlist.strings */; };
 		C60C544F196D1B0D007387A8 /* PriceTrendChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C544E196D1B0D007387A8 /* PriceTrendChartTests.m */; };
+		C60C545A196D1B23007387A8 /* JTTLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C5459196D1B23007387A8 /* JTTLineChartView.m */; };
+		C60C545D196D1B3C007387A8 /* JTTCoordinateSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C545C196D1B3C007387A8 /* JTTCoordinateSystemView.m */; };
+		C60C5460196D1B63007387A8 /* JTTCoordinateValuesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C60C545F196D1B63007387A8 /* JTTCoordinateValuesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		C60C544A196D1B0D007387A8 /* PriceTrendChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriceTrendChartTests-Info.plist"; sourceTree = "<group>"; };
 		C60C544C196D1B0D007387A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C60C544E196D1B0D007387A8 /* PriceTrendChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceTrendChartTests.m; sourceTree = "<group>"; };
+		C60C5458196D1B23007387A8 /* JTTLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTLineChartView.h; sourceTree = "<group>"; };
+		C60C5459196D1B23007387A8 /* JTTLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTLineChartView.m; sourceTree = "<group>"; };
+		C60C545B196D1B3C007387A8 /* JTTCoordinateSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTCoordinateSystemView.h; sourceTree = "<group>"; };
+		C60C545C196D1B3C007387A8 /* JTTCoordinateSystemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTCoordinateSystemView.m; sourceTree = "<group>"; };
+		C60C545E196D1B63007387A8 /* JTTCoordinateValuesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTTCoordinateValuesView.h; path = ../JTTCoordinateValuesView.h; sourceTree = "<group>"; };
+		C60C545F196D1B63007387A8 /* JTTCoordinateValuesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTTCoordinateValuesView.m; path = ../JTTCoordinateValuesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,12 @@
 		C60C542F196D1B0D007387A8 /* PriceTrendChart */ = {
 			isa = PBXGroup;
 			children = (
+				C60C5458196D1B23007387A8 /* JTTLineChartView.h */,
+				C60C5459196D1B23007387A8 /* JTTLineChartView.m */,
+				C60C545E196D1B63007387A8 /* JTTCoordinateValuesView.h */,
+				C60C545F196D1B63007387A8 /* JTTCoordinateValuesView.m */,
+				C60C545B196D1B3C007387A8 /* JTTCoordinateSystemView.h */,
+				C60C545C196D1B3C007387A8 /* JTTCoordinateSystemView.m */,
 				C60C5438196D1B0D007387A8 /* JTTAppDelegate.h */,
 				C60C5439196D1B0D007387A8 /* JTTAppDelegate.m */,
 				C60C543B196D1B0D007387A8 /* Images.xcassets */,
@@ -241,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C60C5436196D1B0D007387A8 /* main.m in Sources */,
+				C60C545A196D1B23007387A8 /* JTTLineChartView.m in Sources */,
+				C60C545D196D1B3C007387A8 /* JTTCoordinateSystemView.m in Sources */,
 				C60C543A196D1B0D007387A8 /* JTTAppDelegate.m in Sources */,
+				C60C5460196D1B63007387A8 /* JTTCoordinateValuesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

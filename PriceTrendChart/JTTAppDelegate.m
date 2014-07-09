@@ -7,6 +7,7 @@
 //
 
 #import "JTTAppDelegate.h"
+#import "JTTLineChartView.h"
 
 @implementation JTTAppDelegate
 
@@ -14,7 +15,39 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    JTTLineChartViewComponent *component = [[JTTLineChartViewComponent alloc]init];
+    component.points = [NSArray arrayWithObjects:@"1",@"2.7",@"4.2",@"1",@"3.5",@"0.3",@"4.5",@"1",@"2.7",@"4.2",@"1",@"3.5",@"0.3",@"4.5",@"0",  nil];
+    component.colour = PCColorGreen;
+    
+    JTTLineChartViewComponent *component1 = [[JTTLineChartViewComponent alloc]init];
+    component1.points = [NSArray arrayWithObjects:@"4.5",@"4",@"4.2",@"1.3",@"1.5",@"2",@"2.5", @"4.5",@"4",@"4.2",@"1.3",@"1.5",@"2",@"2.5", @"0",nil];
+    component1.colour = PCColorYellow;
+    
+    JTTLineChartViewComponent *component2 = [[JTTLineChartViewComponent alloc]init];
+    component2.points = [NSArray arrayWithObjects:@"0.5",@"1",@"1.5",@"1.3",@"1.5",@"5",@"2.5",@"0.5",@"1",@"1.5",@"1.3",@"1.5",@"5",@"2.5", @"0",nil];
+    component2.colour = PCColorRed;
+    
+    
+    NSArray *totalDataMax = [NSArray arrayWithObjects:@"4.5",@"4",@"4.2",@"1.3",@"3.5", @"5",@"4.5",@"4.5",@"4",@"4.2",@"1.3",@"3.5", @"5",@"4.5",@"0",nil];
+    
+    NSMutableArray *components = [[NSMutableArray alloc]init];
+    [components addObject:component];
+    [components addObject:component1];
+    [components addObject:component2];
+
+    
+    JTTLineChartView * lineChartView = [[JTTLineChartView alloc]initWithFrame:CGRectMake(0, 100, 320, 300)];
+    
+    lineChartView.components = components;
+    lineChartView.maxDatas = totalDataMax;
+    
+    
+    lineChartView.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:lineChartView];
+    
+    self.window.backgroundColor = PCColorDefault;
     [self.window makeKeyAndVisible];
     return YES;
 }
